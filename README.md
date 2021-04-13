@@ -29,7 +29,8 @@ The code has been tested running under Python 2.7. The required packages are as 
 - **read_features.py** *# Get the features and samples that model need without running geo_data_decoder.py*
 - **train.py** *# Training procedure of CDAPM. This is the entrace of CDAPM model.*
 ## Usage
-train and evaluate model :
+we provide the processed features --/features, so we don't need the original dataset
+you can train and evaluate model :
 > ```python
 > python train.py 
 > ```
