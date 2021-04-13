@@ -8,7 +8,6 @@ PRETRAINED_FS = config.PRETRAINED_FS
 PRETRAINED_LA = config.PRETRAINED_LA
 
 def train(dataset = 'FS'):
-
     if dataset == 'FS':
         user_feature_sequence, place_index, seg_max_record, center_location_list, useful_vec = FS_get_features()
 

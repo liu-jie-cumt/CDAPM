@@ -1,5 +1,5 @@
 import cPickle
-from model.rnn_model_keras import geo_lprnn_model,geo_lprnn_text_model,geo_lprnn_trainable_text_model,multi_model,all_self_model
+from model.CDAPM import geo_lprnn_model,geo_lprnn_text_model,geo_lprnn_trainable_text_model,multi_model,cdapm
 from eval_tools import *
 import config
 
