@@ -34,6 +34,15 @@ you can train and evaluate model :
 > ```python
 > python train.py 
 > ```
+## Other Methods
+|model | model_link | 
+:---: |:---:|
+|markov | markov |
+|simple | RNN-short | 
+|simple_long | RNN-long | 
+|attn_avg_long_user | Ours attn-1 |
+|attn_local_long | Ours attn-2 |
+
 
 ## Dataset and external data
 Some large files are not available in this repository.Please download on link: 链接: https://pan.baidu.com/s/1YsonkFBk2pN-PUJOC-Bbyg  password: ki82
