@@ -35,17 +35,19 @@ you can train and evaluate model :
 > python train.py 
 > ```
 ## Other Methods
-|model | model_link | 
+|model | code | 
 :---: |:---:|
-|markov | markov |
-|simple | RNN-short | 
-|simple_long | RNN-long | 
-|attn_avg_long_user | Ours attn-1 |
-|attn_local_long | Ours attn-2 |
+|MF| [The implementation of author](https://dl.acm.org/doi/abs/10.1145/2983323.2983887?casa_token=XAcW3E9HSrIAAAAA:1UuoCITtjky8-TuyFHMEDt3nZu78PCfaqpPuYkNqgUziNExRzs7c-S-zMzlz-c__Ag6In8hTAdBJqT8) |
+|HMM | [The implementation of author](https://github.com/anmol221B/Prediction-of-Future-location-using-Hidden-Markov-Model) | 
+|ST-RNN | [The implementation of author](https://github.com/yongqyu/STRNN)| 
+|PoVDSSA | [The implementation of author](https://www.mdpi.com/1424-8220/18/10/3582) |
+|SERM | [CDAPM.py-serm](https://github.com/liu-jie-cumt/CDAPM/blob/master/model/CDAPM.py) |
+|DeepMove | [The implementation of author](https://github.com/vonfeng/DeepMove) |
+|CDAPM | [CDAPM.py-cdapm](https://github.com/liu-jie-cumt/CDAPM/blob/master/model/CDAPM.py) |
 
 
 ## Dataset and external data
-Some large files are not available in this repository.Please download on link: 链接: https://pan.baidu.com/s/1YsonkFBk2pN-PUJOC-Bbyg  password: ki82
+Some large files are not available in this repository.Please download on link: https://pan.baidu.com/s/1YsonkFBk2pN-PUJOC-Bbyg  password: ki82
 - **/data** *# Path of New York Foursquare and Los Angelos Geo-Tweets datasets*
     - **la_tweets1100000_cikm.txt** *# Los Angelos Geo-Tweets*
     - **tweets-cikm.txt** *# New York Foursquare check-ins*
